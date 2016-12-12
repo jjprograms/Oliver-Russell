@@ -121,12 +121,29 @@ p {
 	background-image: url(logo_main.png)*/
 }
 
+.text-dot {
+	background: lightblue;
+	position: absolute;
+	bottom: -50px;
+	left: 150px;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 19px;
+	vertical-align: middle;
+	line-height: 100px;
+	border-radius: 50px;
+}
+
 #logo-main-container {
 	float: left;
 	width: 45%;
 }
 
 #think-top {
+	position: relative;
 	background-image: url(main_swirl.png);
 	height: 140px;
 }
@@ -135,9 +152,14 @@ p {
 	margin-left: 50%;
 }
 
-#dot-think {
+#dot-think {
 	float: left;
-	position: relative;
-	top: 90px;
+	position: absolute;
+	bottom: -50px;
 	left: 30px;
+}
+
+#sometext {
+	width: 200px;
+	overflow-x: hidden;
 }
