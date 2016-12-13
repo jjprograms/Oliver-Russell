@@ -3,6 +3,7 @@ colors:
 
 OR-graybrown = #978b7d
 OR-white = #ffffff
+OR-Lightgray = #c7baa7
 
 OR-orange = #ff9000
 OR-darkorange = #e68000
@@ -34,21 +35,21 @@ p {
 	font-family: sans-serif;
 }*/
 
-#header {
+.header {
 	background-color: #978b7d;
 	height: 20px;
 	margin-top: 0px;
 	border: 0px;
 }
 
-#subheader {
+.subheader {
 	background-color: #978b7d;
 	height: 20px;
 	max-width: 928px;
 	margin: 0 auto;
 }
 
-#main-content {
+.main-content {
 	background-color: #ffffff;
 	/*height: 100px;*/
 	max-width: 928px;
@@ -75,69 +76,130 @@ p {
 	overflow-x: hidden;
 }*/
 
-#header-inline1 {
+.header-inline1 {
 	background-color: #c65303;
 }
 
-#header-inline2 {
+.header-inline2 {
 	background-color: #e79901;
 }
 
-#header-inline3 {
+.header-inline3 {
 	background-color: #63afa2;
 }
 
-#header-inline4 {
+.header-inline4 {
 	background-color: #e68000;
 }
 
-#logo-tag1 {
+.logo-tag1 {
 	background-image: url(swirl_tag_think.png)
 }
 
-#logo-tag2 {
+.logo-tag2 {
 	background-image: url(swirl_tag_about.png)
 }
 
-#logo-tag3 {
+.logo-tag3 {
 	background-image: url(swirl_tag_work.png)
 }
 
-#logo-tag4 {
+.logo-tag4 {
 	background-image: url(swirl_tag_hello.png)
 }
 
-#logo-area {
+.logo-area {
 	height: 225px;
 }
 
-#logo-main {
+.logo-main {
 	display: inline;
 	position: relative;
 	top: 65px;
 	overflow-x: hidden;
+	width: 32vw;
+	max-width: 350px;
 	/*width: 400px;
 	height: 200px;
 	background-image: url(logo_main.png)*/
 }
 
-#logo-main-container {
+.logo-main-container {
 	float: left;
 	width: 45%;
 }
 
-#think-top {
+.think-top {
 	background-image: url(main_swirl.png);
 	height: 140px;
 }
 
-#think-text {
+.think-text {
 	margin-left: 50%;
 }
 
-#dot-think {
+.dot-think {
 	float: left;
 	position: relative;
 	top: 90px;
 	left: 30px;
+	z-index: 1;
+}
+
+.better-sales {
+	position: relative;
+	max-width: 928px;
+	background-image: url(better_sales_left.png);
+	/* height: 218px; */
+	min-height: 143px;
+	max-height: 218px;
+	background-repeat: no-repeat;
+	background-color: #978b7d;
+	background-position: bottom left;
+}
+
+.better-sales-left {
+	width: 500px;
+	height: 237px;
+	float: right;
+}
+
+.better-sales-right {
+	width: 50%;
+}
+
+.better-sales-right-img {
+	float: right;
+	width: 50vw;
+	max-width: 480px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.button-read {
+	position: absolute;
+	bottom: 0px;
+	left: 80px;
+	width: 236px;
+	height: 38px;
+	background-color: #c7baa7;
+	/* display: none; */
+	color: white;
+	vertical-align: top;
+	text-align: center;
+}
+
+.button-read-temp {
+	position: absolute;
+	bottom: 0px;
+	left: 80px;
+}
+
+.button-read-text {
+	font-weight: bold;
+	text-align: center;
+	line-height: 38px;
+	margin: 0;
 }
